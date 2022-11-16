@@ -13,6 +13,10 @@ polaris=me17.9.74=21 Polaris Slingshot
 Ваз Приора=ме17.9.7
 https://chiptuner.ru/content/pin_1797/
 
+
+VAZ/UAZ ME17.9.71
+https://ecupro.eu/modul-39-vazuaz-me17971-pcmflash
+
 UAZ Patriot
 
 Приора
