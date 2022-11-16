@@ -8,6 +8,8 @@
 https://turo.com/us/en/car-rental/united-states/polaris
 
 
+polaris=me17.9.74=21 Polaris Slingshot
+
 Ваз ме17.9.7
 
 UAZ Patriot
