@@ -54,3 +54,11 @@ BO_ 1361 ECM_551: 8 ECM
 0x551 — приборы
 0x555 — климат-контроль
 0x560 — АКП
+
+
+
+=======================
+
+https://habr.com/ru/post/479672/comments/#comment_24929006
+
+ ![image](https://user-images.githubusercontent.com/48498823/203102842-060ce1be-7e47-4cbe-93b3-e29bcd3d23be.png)
