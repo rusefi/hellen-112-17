@@ -39,6 +39,10 @@ UAZ Patriot
 
 
 
+4018374
+![image](https://user-images.githubusercontent.com/48498823/219258986-89e5c071-b896-4ff4-902f-1468b6dedea7.png)
+
+
 
 
 
