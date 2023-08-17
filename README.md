@@ -21,29 +21,6 @@ https://turo.com/us/en/car-rental/united-states/polaris
 
 
 
-polaris=me17.9.74=21 Polaris Slingshot
-
-Ваз Приора=ме17.9.7
-https://chiptuner.ru/content/pin_1797/
-
-
-VAZ/UAZ ME17.9.71
-https://ecupro.eu/modul-39-vazuaz-me17971-pcmflash
-
-UAZ Patriot
-
-Приора
-
-Гранта
 
 
 
-
-4018374
-![image](https://user-images.githubusercontent.com/48498823/219258986-89e5c071-b896-4ff4-902f-1468b6dedea7.png)
-
-
-
-
-
-Polaris Slingshot Engine Harness 2415265
