@@ -393,13 +393,13 @@
       "missing_power_pin": "error",
       "missing_unit": "warning",
       "multiple_net_names": "warning",
-      "net_not_bus_member": "warning",
+      "net_not_bus_member": "ignore",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -420,7 +420,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -430,7 +430,24 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.15,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -441,7 +458,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "HV",
+        "pattern": "/OUT_IGN*"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/IN_CRANK*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -510,6 +536,22 @@
     [
       "56629487-12bb-4ea4-9c4b-d3a7d652a8b0",
       "lowside_quad"
+    ],
+    [
+      "a574a284-d906-413f-999c-1439b6faa556",
+      "FREQ_DIVIDER"
+    ],
+    [
+      "b035085a-1f6e-4d1d-a0ec-fdd178ff7c02",
+      "IGN_QUAD"
+    ],
+    [
+      "31f16d0d-3f69-4b32-a8fb-2e017a20e660",
+      "lowside_quad1"
+    ],
+    [
+      "f1c1ee9f-24e7-4de8-a007-178b12809e45",
+      "lowside_weak"
     ]
   ],
   "text_variables": {}
