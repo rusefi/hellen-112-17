@@ -118,6 +118,7 @@
 "4.7k","R51","hellen-one-common:R0603","C23162"
 "4.7k","R52","hellen-one-common:R0603","C23162"
 "4.7k","R53","hellen-one-common:R0603","C23162"
+"Jumper-Pad-Pad","R54","hellen-one-common:PAD-0805-PAD","C17477"
 "TLE9201SG","U1","Package_SO:Infineon_PG-DSO-12-11","C112633"
 "74HC14PW,118","U2","Package_SO:TSSOP-14_4.4x5mm_P0.65mm","C5606"
 "VNLD5160","U4","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C377942"
