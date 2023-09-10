@@ -1042,7 +1042,7 @@
     (property "Reference" "D7" (at 109.855 88.265 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SRV05-4" (at 112.395 88.265 90)
+    (property "Value" "SRV05-4-P-T7" (at 112.395 88.265 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 121.92 86.995 0)
