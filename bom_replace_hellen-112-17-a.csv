@@ -8,6 +8,9 @@ R131,
 #CAN wakeup disabled, O2S input enabled
 R145,
 
+#IGBT series resistor
+"R114, R115, R116, R117","33","R0402","C25105"
+
 # DC-DC Inductor
 L421,"MWSA0503S-100MT","MWSA0503","C408412"
 
