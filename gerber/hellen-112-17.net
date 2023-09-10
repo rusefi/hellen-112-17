@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-112-17/hellen-112-17/hellen-112-17.kicad_sch</source>
-    <date>Sun Sep 10 06:41:18 2023</date>
+    <date>Sun Sep 10 06:48:35 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -862,7 +862,7 @@
       <tstamps>375f163d-cfde-4d0e-8498-7be815fa667b</tstamps>
     </comp>
     <comp ref="D12">
-      <value>SRV05-4</value>
+      <value>SRV05-4-P-T7</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <fields>
         <field name="LCSC">C85364</field>
@@ -1611,7 +1611,7 @@
       <tstamps>01b3be20-11d8-4990-b98f-0141c8d3bf05</tstamps>
     </comp>
     <comp ref="D10">
-      <value>SRV05-4</value>
+      <value>SRV05-4-P-T7</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <fields>
         <field name="LCSC">C85364</field>
@@ -1626,7 +1626,7 @@
       <tstamps>50014d65-762d-4723-ac64-285c6c734589</tstamps>
     </comp>
     <comp ref="D11">
-      <value>SRV05-4</value>
+      <value>SRV05-4-P-T7</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <fields>
         <field name="LCSC">C85364</field>
