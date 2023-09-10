@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-112-17/hellen-112-17/hellen-112-17.kicad_sch</source>
-    <date>Sun Sep 10 07:26:38 2023</date>
+    <date>Sun Sep 10 15:24:28 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -848,7 +848,7 @@
     </comp>
     <comp ref="C14">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C14663</field>
       </fields>
@@ -878,33 +878,31 @@
     </comp>
     <comp ref="R19">
       <value>4.7k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="FREQ_DIVIDER"/>
       <property name="Sheetfile" value="FREQ_DIVIDER.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/FREQ_DIVIDER/" tstamps="/a574a284-d906-413f-999c-1439b6faa556/"/>
-      <tstamps>ad5f0f26-6826-4a0f-9267-e8dc810730fd</tstamps>
+      <tstamps>3df3b7c8-175e-47c4-9842-d8bbc0410cdc</tstamps>
     </comp>
     <comp ref="R20">
       <value>4.7k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="FREQ_DIVIDER"/>
       <property name="Sheetfile" value="FREQ_DIVIDER.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/FREQ_DIVIDER/" tstamps="/a574a284-d906-413f-999c-1439b6faa556/"/>
-      <tstamps>5f6bd63a-a585-4022-a6a2-c77f1cdc30ed</tstamps>
+      <tstamps>a3ab9f22-0a6f-4114-aa69-8467539426fc</tstamps>
     </comp>
     <comp ref="U7">
       <value>74VHC163FT</value>
@@ -1432,10 +1430,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1446,10 +1444,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1460,10 +1458,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1474,10 +1472,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1488,10 +1486,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1502,10 +1500,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1530,10 +1528,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1544,10 +1542,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1558,10 +1556,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1572,10 +1570,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1586,10 +1584,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1600,10 +1598,10 @@
       <value>1n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="LCSC">C106247</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value="C106247"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value="dinput6"/>
       <property name="Sheetfile" value="dinput6.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -1978,22 +1976,6 @@
         <pin num="1" name="G" type="input"/>
         <pin num="2" name="C" type="passive"/>
         <pin num="3" name="E" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="R">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R_Pack04">
