@@ -1,6 +1,1 @@
-* Warning! Footprint mismatch for the part #C14663: C0603 != C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-* Warning! Footprint mismatch for the part #C14663: C_0603_1608Metric_Pad1.08x0.95mm_HandSolder != C0603
-* Warning! Footprint mismatch for the part #C23162: R0603 != R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-* Warning! Footprint mismatch for the part #C23162: R_0603_1608Metric_Pad0.98x0.95mm_HandSolder != R0603
-* Warning! Identical parts C771 and C15,C16,C17,C18,C19,C20,C22,C23,C24,C25,C26,C28 (1n_C0603) have different partnumbers: C1588 and C106247
 * Warning! Identical parts C100,C101,C105,C108,C111,C112,C113,C119,C120,C122,C124,C126,C127,C130,C134,C147,C180,C185,C190,C195,C220,C221,C222 and C411,C413,C420,C470 (100n_C0402) have different partnumbers: C1525 and C307331
