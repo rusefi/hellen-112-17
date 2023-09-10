@@ -1,0 +1,24 @@
+# remove +5V pull-ups from SPI1, because we use it with +3.3v accelerometer
+R103,
+R105,
+
+# remove jumper resistor connecting BOOT1 with A22 input line, because we use STM32F4
+R131,
+
+#CAN wakeup disabled, O2S input enabled
+R145,
+
+# DC-DC Inductor
+L421,"MWSA0503S-100MT","MWSA0503","C408412"
+
+# fuses
+F410,"nSMD050-24V","SMD1206","C70076"
+
+# TLS115
+U411,"TLS115B0EJXUMA1","PG-DSO-8","C3743696"
+
+# no software for accelerometer
+U106,
+
+#include hellen-one/board_id/generated/board_id_h112-17-a.csv
+#include bom_pullups_hellen-112-17-a.csv
