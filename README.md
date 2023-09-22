@@ -4,6 +4,8 @@
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-112-17/)
 
+[Firmware Source Code](https://github.com/rusefi/rusefi/tree/master/firmware/config/boards/hellen/hellen-112-17)
+
 [lame Spreadsheet](https://docs.google.com/spreadsheets/d/1tG2D43BH8SXMTmPQf_461dmxhCe58JP2_1n4kO6hWnw)
 
 # Compatibility
