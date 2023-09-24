@@ -19,3 +19,5 @@ Bosch 21126-1411020-70
 Suzuki 33910-69L01
 
 Polaris Slingshot 4015316
+
+[2020+ Indian](https://github.com/rusefi/rusefi_documentation/raw/master/OEM-Docs/Indian/2020-2022%20Indian_Challenger_Pursuit_service_manual.pdf) page 223
