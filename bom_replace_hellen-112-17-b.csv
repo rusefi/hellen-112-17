@@ -26,5 +26,5 @@ U106,
 # STM32F407VGT6 is very cheap
 U105,"STM32F429VGT6","LQFP100","C12345"
 
-#include hellen-one/board_id/generated/board_id_h112-17-a.csv
+#include hellen-one/board_id/generated/board_id_h112-17-b.csv
 #include bom_pullups_hellen-112-17-a.csv
