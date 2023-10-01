@@ -5,12 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "rusEfi Proteus")
-    (date "2022-04-09")
-    (rev "v0.7")
+    (date "2023-10-01")
     (company "rusEFI")
-    (comment 1 "github.com/mck1117/proteus")
-    (comment 2 "rusefi.com/s/proteus")
   )
 
   (lib_symbols
@@ -431,11 +427,6 @@
   (wire (pts (xy 113.03 69.85) (xy 113.03 68.58))
     (stroke (width 0) (type default))
     (uuid ff2bca14-dbd8-4dcc-92a5-b1159c645281)
-  )
-
-  (text "Locate output caps near connector pin" (at 60.96 127.635 0)
-    (effects (font (size 2.9972 2.9972)) (justify left bottom))
-    (uuid 5b50bb78-12de-4f97-a45d-8444b4eb92dd)
   )
 
   (hierarchical_label "OUT3" (shape output) (at 125.73 83.82 0) (fields_autoplaced)

@@ -8,6 +8,9 @@ R131,
 #CAN wakeup disabled, O2S input enabled
 R145,
 
+#PWR_EN not used as GPIO
+R142,
+
 #IGBT series resistor
 "R114, R115, R116, R117","33","R0402","C25105"
 
@@ -27,4 +30,4 @@ U106,
 U105,"STM32F429VGT6","LQFP100","C12345"
 
 #include hellen-one/board_id/generated/board_id_h112-17-b.csv
-#include bom_pullups_hellen-112-17-a.csv
+#include bom_pullups_hellen-112-17-b.csv
