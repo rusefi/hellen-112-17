@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-112-17/hellen-112-17/hellen-112-17.kicad_sch</source>
-    <date>Sat Sep 30 00:59:09 2023</date>
-    <tool>Eeschema 7.0.7-7.0.7~ubuntu22.04.1</tool>
+    <date>Sun Oct  1 05:51:42 2023</date>
+    <tool>Eeschema 7.0.8-7.0.8~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>hellen-112-17</title>
         <company>rusEFI.com</company>
-        <rev>A</rev>
-        <date>2023-09-09</date>
+        <rev>B</rev>
+        <date>2023-10-01</date>
         <source>hellen-112-17.kicad_sch</source>
         <comment number="1" value="https://rusefi.com/s/h112-17"/>
         <comment number="2" value=""/>
@@ -42,13 +42,13 @@
     </sheet>
     <sheet number="3" name="/lowside_quad/" tstamps="/56629487-12bb-4ea4-9c4b-d3a7d652a8b0/">
       <title_block>
-        <title>rusEfi Proteus</title>
+        <title/>
         <company>rusEFI</company>
-        <rev>v0.7</rev>
-        <date>2022-04-09</date>
+        <rev/>
+        <date>2023-10-01</date>
         <source>lowside_quad.kicad_sch</source>
-        <comment number="1" value="github.com/mck1117/proteus"/>
-        <comment number="2" value="rusefi.com/s/proteus"/>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -96,13 +96,13 @@
     </sheet>
     <sheet number="6" name="/lowside_quad1/" tstamps="/31f16d0d-3f69-4b32-a8fb-2e017a20e660/">
       <title_block>
-        <title>rusEfi Proteus</title>
+        <title/>
         <company>rusEFI</company>
-        <rev>v0.7</rev>
-        <date>2022-04-09</date>
+        <rev/>
+        <date>2023-10-01</date>
         <source>lowside_quad.kicad_sch</source>
-        <comment number="1" value="github.com/mck1117/proteus"/>
-        <comment number="2" value="rusefi.com/s/proteus"/>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -282,8 +282,8 @@
       <tstamps>1350137f-34aa-4d7d-bd26-0a483be8c273</tstamps>
     </comp>
     <comp ref="M4">
-      <value>Module:mega-mcu100/0.1</value>
-      <footprint>hellen-one-mega-mcu100-0.1:mega-mcu100</footprint>
+      <value>Module:mega-mcu100/0.2</value>
+      <footprint>hellen-one-mega-mcu100-0.2:mega-mcu100</footprint>
       <fields>
         <field name="FITTED">False</field>
         <field name="PUBLISHER">qwerty-off</field>
@@ -294,7 +294,7 @@
         <field name="SUPPLIER PART NUMBER 2">*</field>
         <field name="TYPE">Module</field>
       </fields>
-      <libsource lib="hellen-one-mega-mcu100-0.1" part="Module{colon}mega-mcu100/0.1" description="Hellen One MEGA-MCU100 Module"/>
+      <libsource lib="hellen-one-mega-mcu100-0.2" part="Module{colon}mega-mcu100/0.2" description="Hellen One MEGA-MCU100 Module"/>
       <property name="PUBLISHER" value="qwerty-off"/>
       <property name="SUPPLIER PART NUMBER 1" value="*"/>
       <property name="SUPPLIER PART NUMBER 2" value="*"/>
@@ -309,7 +309,7 @@
       <property name="Sheetfile" value="hellen-112-17.kicad_sch"/>
       <property name="ki_description" value="Hellen One MEGA-MCU100 Module"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>02821c69-8068-42dc-8023-801fc9aeda56</tstamps>
+      <tstamps>4a3a80c0-5ff2-431a-af30-5d326e11bdc6</tstamps>
     </comp>
     <comp ref="M5">
       <value>Module-lin-0.1</value>
@@ -2243,15 +2243,15 @@
         <pin num="V5" name="UART_TX" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="hellen-one-mega-mcu100-0.1" part="Module{colon}mega-mcu100/0.1">
+    <libpart lib="hellen-one-mega-mcu100-0.2" part="Module{colon}mega-mcu100/0.2">
       <description>Hellen One MEGA-MCU100 Module</description>
       <footprints>
         <fp>MOD_Hellen_MEGA_MCU100_0.1</fp>
       </footprints>
       <fields>
         <field name="Reference">M100</field>
-        <field name="Value">Module:mega-mcu100/0.1</field>
-        <field name="Footprint">hellen-one-mega-mcu100-0.1:mega-mcu100</field>
+        <field name="Value">Module:mega-mcu100/0.2</field>
+        <field name="Footprint">hellen-one-mega-mcu100-0.2:mega-mcu100</field>
         <field name="PUBLISHER">qwerty-off</field>
         <field name="SUPPLIER PART NUMBER 1">*</field>
         <field name="SUPPLIER PART NUMBER 2">*</field>
@@ -2300,6 +2300,8 @@
         <pin num="N12" name="SPI3_MOSI_(PC12)" type="passive"/>
         <pin num="N13" name="UART2_TX_(PD5)" type="passive"/>
         <pin num="N14" name="UART2_RX_(PD6)" type="passive"/>
+        <pin num="N14a" name="LED_GREEN" type="passive"/>
+        <pin num="N14b" name="LED_YELLOW" type="passive"/>
         <pin num="N15" name="V33_SWITCHABLE" type="passive"/>
         <pin num="N16" name="BOOT0" type="passive"/>
         <pin num="N17" name="VBAT" type="passive"/>
@@ -2546,8 +2548,8 @@
     <library logical="hellen-one-lin-0.1">
       <uri>/home/runner/work/hellen-112-17/hellen-112-17/hellen-one/modules/lin/0.1/lin.kicad_sym</uri>
     </library>
-    <library logical="hellen-one-mega-mcu100-0.1">
-      <uri>/home/runner/work/hellen-112-17/hellen-112-17/hellen-one/modules/mega-mcu100/0.1/mega-mcu100.kicad_sym</uri>
+    <library logical="hellen-one-mega-mcu100-0.2">
+      <uri>/home/runner/work/hellen-112-17/hellen-112-17/hellen-one/modules/mega-mcu100/0.2/mega-mcu100.kicad_sym</uri>
     </library>
     <library logical="hellen-one-power_12and5V">
       <uri>/home/runner/work/hellen-112-17/hellen-112-17/hellen-one/modules/power_12and5V/0.2/power_12and5V.kicad_sym</uri>
@@ -3532,76 +3534,82 @@
     <net code="194" name="unconnected-(M4-I2C_SDA_(PB11)-PadE4)">
       <node ref="M4" pin="E4" pinfunction="I2C_SDA_(PB11)" pintype="passive+no_connect"/>
     </net>
-    <net code="195" name="unconnected-(M4-SWCLK_(PA14)-PadN6)">
+    <net code="195" name="unconnected-(M4-LED_GREEN-PadN14a)">
+      <node ref="M4" pin="N14a" pinfunction="LED_GREEN" pintype="passive+no_connect"/>
+    </net>
+    <net code="196" name="unconnected-(M4-LED_YELLOW-PadN14b)">
+      <node ref="M4" pin="N14b" pinfunction="LED_YELLOW" pintype="passive+no_connect"/>
+    </net>
+    <net code="197" name="unconnected-(M4-SWCLK_(PA14)-PadN6)">
       <node ref="M4" pin="N6" pinfunction="SWCLK_(PA14)" pintype="passive+no_connect"/>
     </net>
-    <net code="196" name="unconnected-(M4-SWDIO_(PA13)-PadN5)">
+    <net code="198" name="unconnected-(M4-SWDIO_(PA13)-PadN5)">
       <node ref="M4" pin="N5" pinfunction="SWDIO_(PA13)" pintype="passive+no_connect"/>
     </net>
-    <net code="197" name="unconnected-(M4-SWO_(PB3)-PadN8)">
+    <net code="199" name="unconnected-(M4-SWO_(PB3)-PadN8)">
       <node ref="M4" pin="N8" pinfunction="SWO_(PB3)" pintype="passive+no_connect"/>
     </net>
-    <net code="198" name="unconnected-(M4-UART2_RX_(PD6)-PadN14)">
+    <net code="200" name="unconnected-(M4-UART2_RX_(PD6)-PadN14)">
       <node ref="M4" pin="N14" pinfunction="UART2_RX_(PD6)" pintype="passive+no_connect"/>
     </net>
-    <net code="199" name="unconnected-(M4-UART2_TX_(PD5)-PadN13)">
+    <net code="201" name="unconnected-(M4-UART2_TX_(PD5)-PadN13)">
       <node ref="M4" pin="N13" pinfunction="UART2_TX_(PD5)" pintype="passive+no_connect"/>
     </net>
-    <net code="200" name="unconnected-(M4-USBID_(PA10)-PadN4)">
+    <net code="202" name="unconnected-(M4-USBID_(PA10)-PadN4)">
       <node ref="M4" pin="N4" pinfunction="USBID_(PA10)" pintype="passive+no_connect"/>
     </net>
-    <net code="201" name="unconnected-(M4-V5A_SWITCHABLE-PadW14)">
+    <net code="203" name="unconnected-(M4-V5A_SWITCHABLE-PadW14)">
       <node ref="M4" pin="W14" pinfunction="V5A_SWITCHABLE" pintype="passive+no_connect"/>
     </net>
-    <net code="202" name="unconnected-(M4-V33-PadN23)">
+    <net code="204" name="unconnected-(M4-V33-PadN23)">
       <node ref="M4" pin="N23" pinfunction="V33" pintype="passive+no_connect"/>
     </net>
-    <net code="203" name="unconnected-(M4-V33_REF-PadW13)">
+    <net code="205" name="unconnected-(M4-V33_REF-PadW13)">
       <node ref="M4" pin="W13" pinfunction="V33_REF" pintype="passive+no_connect"/>
     </net>
-    <net code="204" name="unconnected-(M4-VREF1-PadS22)">
+    <net code="206" name="unconnected-(M4-VREF1-PadS22)">
       <node ref="M4" pin="S22" pinfunction="VREF1" pintype="passive+no_connect"/>
     </net>
-    <net code="205" name="unconnected-(M4-nReset-PadN7)">
+    <net code="207" name="unconnected-(M4-nReset-PadN7)">
       <node ref="M4" pin="N7" pinfunction="nReset" pintype="passive+no_connect"/>
     </net>
-    <net code="206" name="unconnected-(U1-SO-Pad3)">
+    <net code="208" name="unconnected-(U1-SO-Pad3)">
       <node ref="U1" pin="3" pinfunction="SO" pintype="passive+no_connect"/>
     </net>
-    <net code="207" name="unconnected-(U4-STATUS1-Pad2)">
+    <net code="209" name="unconnected-(U4-STATUS1-Pad2)">
       <node ref="U4" pin="2" pinfunction="STATUS1" pintype="open_collector+no_connect"/>
     </net>
-    <net code="208" name="unconnected-(U4-STATUS2-Pad4)">
+    <net code="210" name="unconnected-(U4-STATUS2-Pad4)">
       <node ref="U4" pin="4" pinfunction="STATUS2" pintype="open_collector+no_connect"/>
     </net>
-    <net code="209" name="unconnected-(U5-STATUS1-Pad2)">
+    <net code="211" name="unconnected-(U5-STATUS1-Pad2)">
       <node ref="U5" pin="2" pinfunction="STATUS1" pintype="open_collector+no_connect"/>
     </net>
-    <net code="210" name="unconnected-(U5-STATUS2-Pad4)">
+    <net code="212" name="unconnected-(U5-STATUS2-Pad4)">
       <node ref="U5" pin="4" pinfunction="STATUS2" pintype="open_collector+no_connect"/>
     </net>
-    <net code="211" name="unconnected-(U7-Q0-Pad14)">
+    <net code="213" name="unconnected-(U7-Q0-Pad14)">
       <node ref="U7" pin="14" pinfunction="Q0" pintype="output+no_connect"/>
     </net>
-    <net code="212" name="unconnected-(U7-Q1-Pad13)">
+    <net code="214" name="unconnected-(U7-Q1-Pad13)">
       <node ref="U7" pin="13" pinfunction="Q1" pintype="output+no_connect"/>
     </net>
-    <net code="213" name="unconnected-(U7-Q3-Pad11)">
+    <net code="215" name="unconnected-(U7-Q3-Pad11)">
       <node ref="U7" pin="11" pinfunction="Q3" pintype="output+no_connect"/>
     </net>
-    <net code="214" name="unconnected-(U7-TC-Pad15)">
+    <net code="216" name="unconnected-(U7-TC-Pad15)">
       <node ref="U7" pin="15" pinfunction="TC" pintype="output+no_connect"/>
     </net>
-    <net code="215" name="unconnected-(U10-STATUS1-Pad2)">
+    <net code="217" name="unconnected-(U10-STATUS1-Pad2)">
       <node ref="U10" pin="2" pinfunction="STATUS1" pintype="open_collector+no_connect"/>
     </net>
-    <net code="216" name="unconnected-(U10-STATUS2-Pad4)">
+    <net code="218" name="unconnected-(U10-STATUS2-Pad4)">
       <node ref="U10" pin="4" pinfunction="STATUS2" pintype="open_collector+no_connect"/>
     </net>
-    <net code="217" name="unconnected-(U11-STATUS1-Pad2)">
+    <net code="219" name="unconnected-(U11-STATUS1-Pad2)">
       <node ref="U11" pin="2" pinfunction="STATUS1" pintype="open_collector+no_connect"/>
     </net>
-    <net code="218" name="unconnected-(U11-STATUS2-Pad4)">
+    <net code="220" name="unconnected-(U11-STATUS2-Pad4)">
       <node ref="U11" pin="4" pinfunction="STATUS2" pintype="open_collector+no_connect"/>
     </net>
   </nets>
