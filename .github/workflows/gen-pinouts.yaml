@@ -1,4 +1,4 @@
-name: Create Board
+name: Generate Pinouts
 
 on:
   push:

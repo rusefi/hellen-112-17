@@ -1,0 +1,12 @@
+name: Update hellen-one Reference
+
+on:
+#  schedule:
+#    - cron: '5 15 * * *' # update hellen reference daily at 3:05 pm
+  workflow_dispatch:
+
+jobs:
+  call-workflow-passing-data:
+    uses: andreika-git/hellen-one/.github/workflows/custom-board-update-hellen-one-reference.yaml@master
+    permissions:
+      contents: write
